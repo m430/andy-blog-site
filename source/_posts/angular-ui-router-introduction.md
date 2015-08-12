@@ -1,7 +1,7 @@
 title: AngularJS系列之UI-Router
 date: 2015-08-11 09:27:06
 categories: AngularJS
-tags: 
+tags:
 ---
 
 **Angular**自带的**ngRoute**已经实现的很好，但是也有它局限性，它不能实现路由嵌套，简单点说就是如果你想在模板内套用**ng-view**是不可以的。还好强大的社区为我们提供了新的路由，那就是——**UI-Router**。
@@ -12,7 +12,7 @@ tags:
 
 > **ngRoute**是Angular自带的路由模块，在1.2版本后已经独立出去，需要单独引用。
 
-<!-- more-->
+
 
 ### ngRoute一般配置用法
 
@@ -23,7 +23,8 @@ tags:
 <script src="angular-route.min.js"></script>
 ```
 然后定义模块并注入**ngRoute**模块，配置路由如下：
-``` Javascript
+
+``` javascript
 angular.module('app', ['ngRoute']).config(['$routeProvider', function($routeProvider) {
 	$routeProvider.when('/view1', {
 		templateUrl: 'tpl/view1.html',
@@ -34,6 +35,7 @@ angular.module('app', ['ngRoute']).config(['$routeProvider', function($routeProv
 	}).otherwise({redirectTo: '/view1'});
 }]);
 ```
+<!-- more-->
 最后通过**ng-view**显示匹配的路由内容:
 
 ``` html
@@ -252,5 +254,5 @@ $stateProvider
 > 至此，Angular的路由模块基本讲完了，花了半天时间把这两天学习的整理了一下，后续会不断更新Angular系列的文章，如果你喜欢我的文章，欢迎分享和留言。
 
 ##### 参考资料
-[bubkoo 学习 ui-router 系列文章索引](http://bubkoo.com/2014/01/02/angular/ui-router/guide/index/)
+[bubkoo 学习 ui-router 系列文章](http://bubkoo.com/2014/01/02/angular/ui-router/guide/index/)
 [UI-Router document](http://angular-ui.github.io/ui-router/site/#/api/ui.router)
