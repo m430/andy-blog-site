@@ -12,7 +12,7 @@ tags:
 
 > **ngRoute**是Angular自带的路由模块，在1.2版本后已经独立出去，需要单独引用。
 
-
+<!-- more-->
 
 ### ngRoute一般配置用法
 
@@ -35,7 +35,7 @@ angular.module('app', ['ngRoute']).config(['$routeProvider', function($routeProv
 	}).otherwise({redirectTo: '/view1'});
 }]);
 ```
-<!-- more-->
+
 最后通过**ng-view**显示匹配的路由内容:
 
 ``` html
