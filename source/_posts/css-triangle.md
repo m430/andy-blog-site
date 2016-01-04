@@ -80,9 +80,6 @@ CSS代码如下：
 	}
 
 ```
-<div class="top-triangle"></div>
-<div class="right-triangle"></div>
-<div class="bottom-triangle"></div>
-<div class="left-triangle"></div>
+<div class="top-triangle"></div><div class="right-triangle"></div><div class="bottom-triangle"></div><div class="left-triangle"></div>
 
 是不是很简单，这样就可以制作各种三角了。

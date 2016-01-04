@@ -1,7 +1,7 @@
 title: AngularJS系列之UI-Router
 date: 2015-08-11 09:27:06
 categories: AngularJS
-tags:
+tags: AngularJS
 ---
 
 **Angular**自带的**ngRoute**已经实现的很好，但是也有它局限性，它不能实现路由嵌套，简单点说就是如果你想在模板内套用**ng-view**是不可以的。还好强大的社区为我们提供了新的路由，那就是——**UI-Router**。
