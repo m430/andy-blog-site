@@ -1,7 +1,7 @@
 title: CSS3画三角形
 date: 2015-09-02 15:48:29
-categories: CSS3
-tags:
+categories: CSS
+tags: CSS
 ---
 
 <style>

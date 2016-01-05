@@ -1,7 +1,7 @@
 title: CSS水平垂直居中方法
 date: 2015-09-15 09:16:02
-categories: CSS3
-tags:
+categories: CSS
+tags: CSS
 ---
 
 <style>

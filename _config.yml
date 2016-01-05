@@ -4,7 +4,7 @@
 
 # Site
 title: Andy's Blog
-subtitle: 
+subtitle: if (有趣) do it!
 description: 专注前端技术
 author: Andy Zheng
 email: minzheng1988@aliyun.com
@@ -121,6 +121,6 @@ plugins:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy: 
-  type: github
+  type: git
   repository: https://github.com/ShadowZheng/shadowzheng.github.io.git
   branch: master
