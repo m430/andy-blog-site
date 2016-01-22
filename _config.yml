@@ -77,7 +77,7 @@ pagination_dir: page
 disqus_shortname:
 
 #多说
-duoshuo_shortname: shadowzheng
+duoshuo_shortname: andy-zheng
 
 #头像
 avatar: 
@@ -101,7 +101,7 @@ creative_commons: by-nc-sa
 baidu_analytics: 50c15455e37f70aea674ff4a663eef27
 
 # 站点起始时间
-since: 2013
+since: 2015
 
 # 头像
 avatar: /images/avatar.jpg
@@ -116,11 +116,15 @@ theme: newbee
 exclude_generator:
 plugins:
 - hexo-generator-feed
-- hexo-generator-sitemap
+- hexo-generator-baidu-sitemap
+
+baidusitemap:
+path: baidusitemap.xml
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repository: https://github.com/ShadowZheng/shadowzheng.github.io.git
-  branch: master
+  repo: 
+      # github: https://github.com/ShadowZheng/shadowzheng.github.io.git,master
+      gitcafe: https://gitcafe.com/andy-zheng/andy-zheng.git,gitcafe-pages
