@@ -11,3 +11,4 @@ date: 2016-02-03 14:38:05
 [underscore.js](http://www.css88.com/doc/underscore/)
 [zepto.js](http://www.css88.com/doc/zeptojs_api/)
 [Node.js](http://nodeapi.ucdok.com/#/api/) 
+[ECMAScript 5.1 中文文档](http://lzw.me/pages/ecmascript/)
