@@ -1,12 +1,15 @@
-title: ng-controller-transfer
+title: AngularJS之Controller的通信
 date: 2016-03-04 18:12:39
-tags:
+categories: AngularJS
+tags: AngularJS
 ---
 
 
 在开发Angular应用的时候我们一般会按照具体业务模块划分Controller，这样便于我们的业务逻辑代码模块化管理，但是如何在不同的Controller之间进行通信成了一个需要解决的问题，Angular为我们提供了一种事件传播的机制。让我来详细介绍一下它是如何工作的。首先要明确在不同Controller之间通信分为两种情况：
+
 - 具有父子嵌套关系的Controller
 - 兄弟关系的Controller
+<!-- more -->
 
 同时要知道Angular提供给我们有三个非常有用的方法：
 - $broadcast：广播事件，它会广播事件到所有子Controller中，也就是说只要子Controller绑定了目标事件就会被触发。
@@ -40,7 +43,6 @@ angular.module('app', [])
 	};
 })
 ```
-可以看到如下结果：
 
 当点击按钮的时候`ChildCtrl`向`ParentCtrl`传递了数据`ChildCtrl data`，达到了我们的目的。: )
 ### 兄弟关系
@@ -69,6 +71,4 @@ angular.module('app', [])
 	});
 })
 ```
-效果如下：
-
-这里利用`$rootScope`从顶层进行广播事件来传递数据。到此，Controller之间的传递方式讲完了。
+这里直接利用`$rootScope`从顶层进行广播事件来传递数据。到此，Controller之间的传递方式讲完了。

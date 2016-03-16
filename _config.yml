@@ -127,4 +127,5 @@ deploy:
   type: git
   repo: 
       # github: https://github.com/ShadowZheng/shadowzheng.github.io.git,master
-      gitcafe: https://gitcafe.com/andy-zheng/andy-zheng.git,gitcafe-pages
+      # gitcafe: https://gitcafe.com/andy-zheng/andy-zheng.git,gitcafe-pages
+      coding: https://git.coding.net/Andy_Coder/Andy_Coder.git,coding-pages
